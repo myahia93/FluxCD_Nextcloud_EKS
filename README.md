@@ -70,6 +70,7 @@ flux create helmrelease nextcloud \
   --chart=nextcloud \
   --target-namespace=nextcloud \
   --values=./nextcloud-values.yaml \
+  --interval=1m \
   --export > ./clusters/project/nextcloud-helmrelease.yaml
 
 # Connect to Nextcloud
