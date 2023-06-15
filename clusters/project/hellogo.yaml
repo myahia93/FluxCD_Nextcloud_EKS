@@ -9,6 +9,6 @@ spec:
   path: ./clusters/project/hellogo
   prune: true
   sourceRef:
-    kind: ""
-    name: ""
+    kind: GitRepository
+    name: flux-system
   targetNamespace: default
